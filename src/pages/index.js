@@ -1,6 +1,6 @@
 import Head from "next/head";
 import React, { useState, useEffect } from "react";
-import { db } from "firebaseConfig";
+import { db } from "../../firebaseConfig";
 import { collection, getDocs } from "firebase/firestore/lite";
 import { generateSlug } from "random-word-slugs";
 import { useRouter } from "next/router";
